@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=global.css.map */
+body{
+    background: #4f7bbe; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00ffc8, #5696d8, #4f7bbe); 
+    background: linear-gradient(to right, #00ffc8, #5696d8, #4f7bbe);
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+   margin: 1em 5em;
+}
+.task-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.task-input input{
+    padding: 1em;
+    width: 100%;
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.task-done {
+    text-decoration: line-through;
+}
+.btn{
+    min-width: 100px;
+    border-radius: 5px;
+}
+.actions{
+    display: flex;
+}
