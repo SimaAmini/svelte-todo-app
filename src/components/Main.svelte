@@ -3,7 +3,7 @@
     import Tasks from './Tasks.svelte'
     import { tasks } from "../store.js";
 
-    const add = () => {
+    const add = (e) => {
         const newTask = {
             id: new Date().getTime(),
             text: e.detail,
